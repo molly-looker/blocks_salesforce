@@ -14,6 +14,8 @@ view: _opportunity {
     sql: ${TABLE}.account_id ;;
   }
 
+
+
   dimension: amount {
     type: number
     sql: ${TABLE}.amount ;;
